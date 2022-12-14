@@ -1,3 +1,6 @@
+//shows context using a class component as base
+
+
 import { Component } from "react";
 import { ThemeContext } from "../App";
 

@@ -1,2 +1,2 @@
 # reactContext
-context api testing
+Basic website built using react context API

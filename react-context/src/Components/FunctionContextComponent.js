@@ -2,8 +2,10 @@
 import { useTheme, useThemeUpdate } from "../Helpers/ThemeContext";
 
 export default function FunctionContextComponent() {
+  //Sets theme based on theme Context, and also updates within theme context
   const darkTheme = useTheme()
   const toggleTheme = useThemeUpdate()
+
   const themeStyles = {
     backgroundColor: darkTheme ? '#333' : '#CCC',
     color: darkTheme ? '#CCC' : '#333',

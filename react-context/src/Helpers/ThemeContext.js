@@ -2,6 +2,7 @@
 import React, { useContext, useState } from "react";
 
 const ThemeContext = React.createContext();
+//create context for updating theme within the context of THEME and create a function lower down to use it.
 const ThemeUpdateContext =  React.createContext();
 
 //create custom hook to access theme anywhere
